@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# User Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **View Users**: View a list of all application users.
+- **Add Users**: Add a new user with name and email.
+- **Edit Users**: Update existing user details like name and email.
+- **Delete Users**: Remove a user from the application.
+- **Interactive UI**: A responsive and engaging user interface built with Material-UI.
+- **Validation**: Form validations to ensure proper data input.
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+1. **Node.js Installation**:
+   - Download and install Node.js from [Node.js official website](https://nodejs.org/).
+   - Verify installation by running:
+     ```bash
+     node -v
+     npm -v
+     ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Guide
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Step 1: Extract the Code
+1. Download the `user-management.rar` file.
+2. Extract it to your desired location.
 
-### `npm test`
+### Step 2: Install Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Navigate to the project directory:
+   ```bash
+   cd user-management
+   ```
 
-### `npm run build`
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   This will install all necessary libraries, including:
+   - `@mui/material`
+   - `@mui/icons-material`
+   - `axios`
+   - `react`
+   - `react-dom`
+   - `react-scripts`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Step 3: Start the Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Run the application using the following command:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+2. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   You should see the User Management Application interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```plaintext
+user-management/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── UserList.js
+│   │   ├── AddUser.js
+│   │   └── EditUser.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   └── ...
+├── package.json
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License
+This project is licensed under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
