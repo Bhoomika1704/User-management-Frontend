@@ -80,8 +80,11 @@ user-management/
 ├── package.json
 └── README.md
 ```
-
+![image](https://github.com/user-attachments/assets/6b7718a9-bb49-47a9-ae98-1277b2dcf289)
+![image](https://github.com/user-attachments/assets/63345ac0-fea9-441f-ba54-f43d9dd91568)
+![image](https://github.com/user-attachments/assets/883b6788-e9bb-4417-8bb3-892d91aaf806)
 ![image](https://github.com/user-attachments/assets/1ef6b020-bf30-425b-bb13-b5dff37634b0)
+
 
 
 
