@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# User Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- **View Users**: View a list of all application users.
+- **Add Users**: Add a new user with name and email.
+- **Edit Users**: Update existing user details like name and email.
+- **Delete Users**: Remove a user from the application.
+- **Interactive UI**: A responsive and engaging user interface built with Material-UI.
+- **Validation**: Form validations to ensure proper data input.
+  ![image](https://github.com/user-attachments/assets/7b331930-cb1a-4313-8465-ae93d250fbd2)
 
-In the project directory, you can run:
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Node.js Installation**:
+   - Download and install Node.js from [Node.js official website](https://nodejs.org/).
+   - Verify installation by running:
+     ```bash
+     node -v
+     npm -v
+     ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Guide
 
-### `npm test`
+### Step 1: Extract the Code
+1. Download the `user-management.rar` file.
+2. Extract it to your desired location.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Step 2: Install Dependencies
 
-### `npm run build`
+1. Navigate to the project directory:
+   ```bash
+   cd user-management
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   This will install all necessary libraries, including:
+   - `@mui/material`
+   - `@mui/icons-material`
+   - `axios`
+   - `react`
+   - `react-dom`
+   - `react-scripts`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 3: Start the Application
 
-### `npm run eject`
+1. Run the application using the following command:
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   You should see the User Management Application interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```plaintext
+user-management/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── UserList.js
+│   │   ├── AddUser.js
+│   │   └── EditUser.js
+│   ├── App.js
+│   ├── index.js
+│   ├── App.css
+│   └── ...
+├── package.json
+└── README.md
+```
+![image](https://github.com/user-attachments/assets/6b7718a9-bb49-47a9-ae98-1277b2dcf289)
+![image](https://github.com/user-attachments/assets/63345ac0-fea9-441f-ba54-f43d9dd91568)
+![image](https://github.com/user-attachments/assets/883b6788-e9bb-4417-8bb3-892d91aaf806)
+![image](https://github.com/user-attachments/assets/1ef6b020-bf30-425b-bb13-b5dff37634b0)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
