@@ -8,6 +8,8 @@
 - **Delete Users**: Remove a user from the application.
 - **Interactive UI**: A responsive and engaging user interface built with Material-UI.
 - **Validation**: Form validations to ensure proper data input.
+  ![image](https://github.com/user-attachments/assets/7b331930-cb1a-4313-8465-ae93d250fbd2)
+
 
 ## Prerequisites
 
@@ -78,6 +80,9 @@ user-management/
 ├── package.json
 └── README.md
 ```
+
+![image](https://github.com/user-attachments/assets/1ef6b020-bf30-425b-bb13-b5dff37634b0)
+
 
 
 ## License
